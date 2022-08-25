@@ -1,6 +1,6 @@
 #Tip Calculator
 
-#ask bill total
+#ask bill total; input delivered as string format
 bill = input("What is the total of the bill?\n"))
 
 #ask num people
