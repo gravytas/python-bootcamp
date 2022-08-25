@@ -15,6 +15,6 @@ total = int(bill) * (1+(int(tip)/100))
 #divide total bill by number of people and round to 2 decimal
 per_person = round((total / int(people)),2)
 
-#print result
+#print result; add variable within quotes via: ${var}
 print(f"Each person will pay ${per_person}")
 
