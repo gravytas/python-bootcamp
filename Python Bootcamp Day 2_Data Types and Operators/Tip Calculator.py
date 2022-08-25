@@ -1,13 +1,13 @@
 #Tip Calculator
 
 #ask bill total
-bill = input("What is the total of the bill? "))
+bill = input("What is the total of the bill?\n"))
 
 #ask num people
-people = input("Between how many people will the bill be split? ")
+people = input("Between how many people will the bill be split?\n")
 
 #ask tip percentage
-tip = input("What percentage tip would you like to give? ")
+tip = input("What percentage tip would you like to give?\n")
 
 # generate bill and tip together. convert percentage to decimal
 total = int(bill) * (1+(int(tip)/100))
