@@ -8,3 +8,15 @@ states_of_america.append("New Hampshire")
 
 #append multiple to end of list
 states_of_america.extend(["Virginia", "North Carolina", "Rhode Island"])
+
+
+#new program
+import random
+
+names_string = input("Give me everybody's name separated by a comma")
+names = names_string.split(", ")
+num_ppl = len(names)
+
+rand_choice = random.randint(0,num_ppl-1)
+payer = names[rand_choice]
+print(payer)
